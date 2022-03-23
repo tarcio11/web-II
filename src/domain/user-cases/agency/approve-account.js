@@ -11,8 +11,6 @@ const approveAccountService = async ({ user_id, agencyId, status }) => {
     throw new Error('Not allowed to approve this account'); // sem permissão
   }
 
-  console.log(account.status);
-
   if (account.status) {
     throw new Error('Account already approved'); // ja foi aprovado
   }
