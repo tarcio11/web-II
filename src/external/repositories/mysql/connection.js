@@ -2,8 +2,9 @@ const Sequelize = require('sequelize');
 
 const { User } = require('../../../domain/entities/user');
 const { Agency } = require('../../../domain/entities/agency');
+const { Account } = require('../../../domain/entities/account');
 
-const models = [User, Agency];
+const models = [User, Agency, Account];
 
 class Database {
   constructor() {

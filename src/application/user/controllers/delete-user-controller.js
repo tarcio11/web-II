@@ -1,4 +1,4 @@
-const { deleteUserService } = require('../../../domain/user-cases/delete-user.js');
+const { deleteUserService } = require('../../../domain/user-cases/user/delete-user.js');
 
 class DeleteUserController {
   async handle (request, response) {

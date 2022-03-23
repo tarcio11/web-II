@@ -1,4 +1,4 @@
-const { User } = require('../entities/user');
+const { User } = require('../../entities/user');
 
 const deleteUserService = async ({ userId }) => {
   const user = await User.findOne({ where: { id: userId } });

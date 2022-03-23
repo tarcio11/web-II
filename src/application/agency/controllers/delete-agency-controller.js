@@ -1,4 +1,4 @@
-const { deleteAgencyService } = require('../../../domain/user-cases/delete-agency.js');
+const { deleteAgencyService } = require('../../../domain/user-cases/agency/delete-agency.js');
 
 class DeleteAgencyController {
   async handle (request, response) {

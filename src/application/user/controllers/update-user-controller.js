@@ -1,4 +1,4 @@
-const { updateUserService } = require('../../../domain/user-cases/update-user.js');
+const { updateUserService } = require('../../../domain/user-cases/user/update-user.js');
 
 class UpdateUserController {
   async handle (request, response) {

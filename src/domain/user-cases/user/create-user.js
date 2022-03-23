@@ -1,4 +1,4 @@
-const { User } = require ('../entities/user')
+const { User } = require ('../../entities/user')
 
 const createUserService = async ({ name, email, password, cpf, address }) => {
   const userExists = await User.findOne({ where: { email } });

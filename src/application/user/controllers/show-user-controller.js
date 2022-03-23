@@ -1,4 +1,4 @@
-const { showUserService } = require('../../../domain/user-cases/show-user.js');
+const { showUserService } = require('../../../domain/user-cases/user/show-user.js');
 
 class ShowUserController {
   async handle (request, response) {

@@ -1,4 +1,4 @@
-const { createUserService } = require('../../../domain/user-cases/create-user.js');
+const { createUserService } = require('../../../domain/user-cases/user/create-user.js');
 
 class CreateUserController {
   async handle (request, response) {

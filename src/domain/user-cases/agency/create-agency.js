@@ -1,4 +1,4 @@
-const { Agency } = require ('../entities/agency')
+const { Agency } = require ('../../entities/agency')
 
 const createAgencyService = async ({ number, address }) => {
   const agencyExists = await Agency.findOne ({ where: { number } })

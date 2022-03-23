@@ -1,4 +1,4 @@
-const { User } = require('../entities/user');
+const { User } = require('../../entities/user');
 
 const updateUserService = async ({ userId, name, email, password, address }) => {
   const user = await User.findOne({ where: { id: userId } });

@@ -1,4 +1,4 @@
-const { showAgencyService } = require('../../../domain/user-cases/show-agency.js');
+const { showAgencyService } = require('../../../domain/user-cases/agency/show-agency.js');
 
 class ShowAgencyController {
   async handle (request, response) {
