@@ -14,7 +14,7 @@ class Account extends Model {
 
     this.addHook('beforeCreate', (account) => {
       account.status = false;
-      account.number = '00000-0';
+      account.number = `00000-${account.id}`;
       account.balance = 500;
     })
     
