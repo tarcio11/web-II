@@ -24,6 +24,7 @@ O desafio consiste em construir uma api em nodeJS para simular o funcionamento d
 12. [Buscar conta](./requirements/show-account.md)
 13. [Aprovar conta](./requirements/approve-status-account-agency.md)
 14. [Busca status da conta do](./requirements/show-status-account-user.md)
+15. [Cadastrar um Cartão](./requirements/create-card.md)
 
 
 > ## Bibliotecas e Ferramentas
